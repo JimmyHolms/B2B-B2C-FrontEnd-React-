@@ -1,0 +1,33 @@
+.dashboard-container .col-md-3 .btn {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.dashboard-container .my-offers {
+  font-size: 15px;
+}
+
+.dashboard-container .row {
+  padding-bottom: 40px;
+}
+
+.dashboard-container .dashboard-item img {
+  border: 1px solid #ddd;
+}
+
+.thumbnail > .text-center > i {
+  color: #002050;
+  line-height: 2.5;
+}
+
+.img-ratio {
+  background-image: url("../images/img-1.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 120px;
+}
+
+.my-offers h4 {
+  margin-top: 0px;
+} 

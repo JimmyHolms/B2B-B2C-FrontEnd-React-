@@ -1,0 +1,173 @@
+.page-aboutus .row-heading h2:before {
+    content: '■ ';
+    position: relative;
+    bottom: .1em;
+    color: #449d44;
+}
+
+.page-aboutus .img-circle{
+  margin: auto;
+}
+
+.header-aboutus{
+  background-image: url("../images/aboutus-header-bg.jpg");
+}
+
+.header-aboutus .site-heading{
+  padding: 150px 0;
+  color: #FFFFFF;
+}
+.header-aboutus .site-heading h1{
+  font-size: 70px;
+}
+.header-aboutus .site-heading hr.small{
+  width: 100px;
+  max-width: 100px;
+  margin: 15px auto;
+  border-width: 4px;
+  border-color: #fff;
+  background-color: #FFFFFF;
+}
+
+.header-aboutus .site-heading .subheading {
+    font-size: 24px;
+    line-height: 1.1;
+    display: block;
+    font-weight: 300;
+    margin: 10px 0 0;
+}
+
+.featurette-divider {
+    margin: 80px 0;
+    width: 100%;
+}
+
+.featurette {
+    overflow: hidden;
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
+
+#leadership {
+  padding-bottom: 30px;
+}
+
+#about-us h2,
+#leadership h2,
+#investors-heading h2 {
+  margin-bottom: 0;
+}
+
+#about-us hr,
+#leadership hr {
+  margin-bottom: 30px;
+}
+
+.leader img {
+  width: 100%; /* to be removed later */
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: .5s;
+  -moz-animation-duration: .5s;
+  animation-duration: .5s;
+}
+
+.leader:hover img {
+  display: none;
+}
+
+.leader:hover .caption {
+  background: #90CAF9;
+  display: block;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: .5s;
+  -moz-animation-duration: .5s;
+  animation-duration: .5s;
+}
+
+.leader .caption {
+  min-height: 336px;
+  display: none;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: .5s;
+  -moz-animation-duration: .5s;
+  animation-duration: .5s;
+}
+
+.leader .caption h3 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.leader .caption h4 {
+  background: #002050;
+  width: 160px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto 15px;
+}
+
+.leader .caption p {
+  color: #2d2d2d;
+  line-height: 1.7;
+}
+
+#about-us {
+  border-bottom: 1px solid #ddd;
+}
+
+#story {
+  font-size: 16px;
+  padding-bottom: 15px;
+  border-right: 1px solid #ddd;
+}
+
+#offices {
+  font-size: 16px;
+}
+
+#offices h3 {
+  margin-top: 0;
+}
+
+#investors {
+  background: #eee;
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+#partners {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#partners img {
+  width: 60%;
+  filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%…200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale");
+  -webkit-filter: grayscale(100%);
+}

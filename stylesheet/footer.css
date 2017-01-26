@@ -1,0 +1,69 @@
+footer {
+  background-color: #264676;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-right: 15px;
+}
+
+/* Footer links */
+
+footer .footer-links {
+  padding-top: 20px;
+  color: #fff;
+}
+
+footer .footer-links a {
+  display: inline-block;
+  padding: 0 10px;
+  color: #b5b8bc;
+  -webkit-transition: all 300ms ease-in-out 0s;
+  -moz-transition: all 300ms ease-in-out 0s;
+  -ms-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer .footer-icons {
+  margin-top: 0px;
+}
+
+footer .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #1A3A6A;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  -webkit-transition: all 300ms ease-in-out 0s;
+  -moz-transition: all 300ms ease-in-out 0s;
+  -ms-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+}
+
+footer .footer-icons a:hover {
+  background: #002050;
+}
+
+footer .footer-icons i {
+  line-height: 35px;
+}
+
+footer .footer-copyright {
+  font-weight: bold;
+  color: #fff;
+}

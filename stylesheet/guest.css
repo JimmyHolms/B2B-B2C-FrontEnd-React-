@@ -1,0 +1,121 @@
+.guest-container {
+  /*background: url("../images/bg_form.jpg") no-repeat scroll 0% 0% / cover;*/
+  background: #f0f7fa;
+  padding: 50px 15px 30px;
+}
+
+.banner {
+  background: #7986CB;
+  height: calc(100vh - 120px);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.video-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  opacity: .5;
+}
+
+.welcome-text {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.welcome-text span {
+  display: block;
+}
+
+.banner h1 {
+  color: #C5CAE9;
+  align-self: center;
+  margin: auto;
+}
+
+.learn-more-btn {
+  background: #3F51B5;
+  width: 200px;
+  display: block;
+  font-size: 20px;
+  line-height: 3em;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  padding: 0 10px;
+  left: calc(50% - 100px);
+  -webkit-border-radius: 2px 2px 0 0;
+  -moz-border-radius: 2px 2px 0 0;
+  border-radius: 2px 2px 0 0;
+}
+
+.learn-more-btn i {
+  vertical-align: middle;
+}
+
+.thumbnail-wrapper {
+  display: inline-flex;
+}
+
+.col {
+  border: 3px solid;
+  background-color: #ffffff;
+}
+
+.guest-container .first-row .row-1 {
+  width: 100%;
+  height: 300px;
+  max-height: 300px;
+}
+
+.guest-container .first-row .row-1 .col-1 {
+  background-image: url("../images/oc_img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.guest-container .first-row .row-1 .col-md-6 {
+  height: 100%;
+}
+
+.guest-container .first-row .row-1 img {
+  width: 100%;
+  height: 300px;
+}
+
+.guest-container .second-row {
+  padding: 50px 0;
+}
+
+.second-row .col-1, .second-row .col-2 {
+  padding: 10px;
+}
+
+.left-img, .right-img {
+  background-image: url("../images/oc_img.png");
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.left-img {
+  background-image: url("../images/oc_img.png");
+}
+
+.right-img {
+  background-image: url("../images/oc_img.png");
+}
+
+#home .thumbnail-wrapper img {
+  width: 90px;
+  margin: 50px auto;
+}

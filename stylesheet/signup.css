@@ -1,0 +1,72 @@
+/********* Sign up ***********/
+.signup-container {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.signup-container .container-title {
+    margin-bottom: 40px;
+}
+
+.checkbox input[type=checkbox] {
+    margin-right: 10px;
+}
+
+.signup-form-container label {
+    font-weight: 500;
+}
+
+.col-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.col-description {
+    margin-bottom: 25px;
+}
+
+.col-details {
+    margin-top: 40px;
+}
+
+.signup-container .first-box {
+    border-right: 1px solid #5bbc2e;
+}
+
+.bootstrap-iso form button, .bootstrap-iso form button:hover {
+    color: #ffffff !important;
+}
+
+.asteriskField {
+    color: red;
+}
+
+/********* Sign in ***********/
+.login-form {
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.login-form .form_header {
+    border-bottom: 1px solid #ddd;
+}
+
+.login-container {
+    height: 82%;
+    background: url("../images/bg_form.jpg") no-repeat scroll 0 0 / cover;
+}
+
+.signup-form {
+    margin-bottom: 80px;
+}
+
+/********* New password ***********/
+.new-password-container .container-form {
+    max-width: 600px;
+    margin: 80px auto;
+    float: none;
+}
+
+.new-password-container .btn-success {
+    width: 300px;
+}

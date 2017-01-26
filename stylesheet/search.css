@@ -1,0 +1,17 @@
+.search_result_page{
+  min-height: 400px;
+}
+
+.search_result_page .container{
+  height: 100%;
+  border: solid 3px;
+}
+
+.search_result_page .result-title{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.search_result_page .result-url{
+  text-decoration: underline;
+}

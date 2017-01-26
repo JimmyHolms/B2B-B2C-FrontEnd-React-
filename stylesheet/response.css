@@ -1,0 +1,268 @@
+@media (min-width: 1328px) {
+  .container {
+    max-width: 1310px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content-reversed .content-half:first-child {
+    padding-left: 3.04545rem;
+  }
+
+  section img {
+    max-height: none;
+  }
+
+  .content-half:first-child {
+    padding-right: 3.04545rem;
+  }
+
+  .content-half.pull-lg-right {
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+  }
+
+  .content-half.text-center {
+    padding-top: 0;
+  }
+
+  .content-half {
+    padding-top: 0;
+    -ms-flex-item-align: center;
+    -webkit-align-self: center;
+    align-self: center;
+  }
+}
+
+@media (max-width: 1340px) {
+  header .logo {
+    /*padding-left: 15px;*/
+  }
+
+  header .container {
+    width: 100%;
+  }
+
+  .top-navbar {
+    /*display: none;*/
+  }
+
+  .mobile-top-navbar {
+    display: block;
+  }
+
+  .mobile-top-navbar ul {
+    width: 160px
+  }
+}
+
+@media (min-width: 991px) {
+  .section-title {
+    font-size: 40px;
+    line-height: 58px;
+    margin-bottom: 23px;
+  }
+}
+
+@media (max-width: 991px) {
+  .content-half {
+    padding-top: 0;
+    padding-bottom: 5px;
+  }
+
+  .content-half.text-center {
+    padding-top: 50px;
+    padding-bottom: 42px;
+  }
+
+  section .content-half img {
+    max-height: 250px;
+  }
+
+  .pricing_table .inner {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .content-half {
+    margin-bottom: -7px;
+    padding-top: 24px;
+    padding-bottom: 0;
+  }
+
+  .content-half.text-center {
+    padding-top: 70px;
+  }
+
+  section .content-half img {
+    max-height: 350px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  p {
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section3 .col-plan {
+    width: 100%;
+    float: none;
+  }
+
+  .smart_bi {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 580px) {
+  .signup-container .first-box {
+    border-right: none;
+    border-bottom: none;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+  }
+
+  .signup-container .container-title {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .section-title {
+    text-align: center;
+  }
+
+  .smart_bi {
+    padding-bottom: 0;
+  }
+
+  section .content-half img {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 768px) {
+  .btn-start {
+    font-size: 15px;
+  }
+
+  .text-primary {
+    font-size: 35px;
+  }
+
+  p {
+    letter-spacing: .3px;
+  }
+}
+
+@media (max-width: 460px) {
+  .btn-start {
+    /*font-size: 12px;*/
+  }
+
+  .smart_bi {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block !important;
+  }
+
+  table.visible-xs {
+    display: table
+  }
+
+  tr.visible-xs {
+    display: table-row !important;
+  }
+
+  td.visible-xs, th.visible-xs {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-sm {
+    display: block !important;
+  }
+
+  table.visible-sm {
+    display: table
+  }
+
+  tr.visible-sm {
+    display: table-row !important;
+  }
+
+  td.visible-sm,
+  th.visible-sm {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-md {
+    display: block !important;
+  }
+
+  table.visible-md {
+    display: table
+  }
+
+  tr.visible-md {
+    display: table-row !important;
+  }
+
+  td.visible-md,
+  th.visible-md {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .visible-lg {
+    display: block !important;
+  }
+
+  table.visible-lg {
+    display: table
+  }
+
+  tr.visible-lg {
+    display: table-row !important;
+  }
+
+  td.visible-lg,
+  th.visible-lg {
+    display: table-cell !important;
+  }
+
+  .hidden-lg {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}

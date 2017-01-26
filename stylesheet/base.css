@@ -1,0 +1,97 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/*----------------------- BUTTONS -----------------------*/
+.btn-start {
+    color: #333;
+    font-size: 17px;
+    font-weight: 700;
+    background: #eee;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 42px;
+    border: 1px solid #ddd;
+    transition: all 300ms ease-in-out 0s;
+}
+
+.btn-start:hover {
+    background: #fc4242;
+    text-decoration: none;
+    color: #fff;
+    border-color: #d13b42;
+}
+
+.btn:hover {
+    border-color: #abe6a3;
+    text-decoration: none;
+}
+
+.btn-default {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    color: #0592B1;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    border: solid #000 1px;
+    text-decoration: none;
+}
+
+.btn-default:hover {
+    background: #fffade;
+    text-decoration: none;
+}
+
+.btn-wrap-inner {
+    margin-top: 50px;
+}
+
+.btn:hover, .btn:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+    background-color: #35aa47 !important;
+    color: #fff !important;
+}
+
+.btn-success {
+    color: white;
+    text-shadow: none;
+    background-color: #5bbc2e;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: solid #000 1px;
+    text-decoration: none;
+}
+
+.page-faq i {
+    color: #35aa47;
+}
+
+.page-faq hr {
+    margin-bottom: 40px;
+}
+
+/* make panels have the same height */
+.equal, .equal > div[class*='col-'] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    /*flex: 1 1 auto;*/
+}
+
+.full-width {
+    width: 100%;
+}

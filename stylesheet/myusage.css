@@ -1,0 +1,52 @@
+div.groove {
+	border-style: groove;
+}
+
+.myusage-container {
+	width: 500px;
+	height: 300px;
+}
+
+.container {
+	width: 100%;
+/*	height: 100%; */
+	padding-top: 20px;
+}
+
+.text-header {
+	color: white;
+	text-align: center;
+	top: 30px;
+	width: 110px;
+	left: 35%;
+	position: absolute;
+}
+
+.text {
+	margin: 10px;
+	text-align: left;
+	padding: 20px 10px 20px 10px;
+	border: 2px;
+}
+.modal-dialog
+{
+	width:750px;
+}
+.usageline div
+{
+	padding-left:10px;
+	padding-right:10px;
+}
+.usageline strong
+{
+	word-wrap:break-word;
+}
+
+.subcategory-header
+{
+	padding: 0px 10px;
+}
+.nousage
+{
+	margin-left: 20px;
+}

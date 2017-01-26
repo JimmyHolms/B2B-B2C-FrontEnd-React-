@@ -1,0 +1,228 @@
+.grey_background {
+	background:#b8b6b6;
+}
+.nobill
+{
+	margin-left: 20px;
+}
+.help_panel {
+	background:#ffffff;
+	border: 2px solid #000000;
+}
+
+.row-grid [class*="row"] + [class*="row"] {
+    margin-top: 15px;
+}
+
+.wrapper {
+  display: inline-block;
+  position: relative;  
+}
+
+.wrapper img {
+  display: block;
+  max-width:100%;
+}
+
+.wrapper .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: black;
+  margin-top: 50px;
+}
+.img-info {
+  width: 50px;
+  height: 50px;
+}
+.help-body {
+  border: 1px solid #ddd;
+  padding: 0 15px 15px;
+  background-color: #fff;
+}
+.help-body h2
+{
+	margin-bottom:8px;
+}
+
+.full-width {
+  width: 100%;
+  height: 100px;
+}
+
+.lastbill-body {
+  padding-left:40px;
+  padding-right:20px;
+}
+
+.bill-img {
+	width:147px;
+}
+
+.bill-render-file {
+	width: 100%;
+	height: 171px;
+	color: #fff;
+	position: relative;
+}
+
+.bill-render-file a {
+	color: #fff;
+}
+.bill-pdf-data {
+  position: absolute; 
+  left: 24px;
+  top: 70px; 
+  text-align:center;
+}
+.bill-pdf-data div{
+	margin-bottom:5px;
+}
+.invoice-line {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.right-element
+{
+	margin-right:20px;
+}
+.info-padding
+{
+	margin-top: -13px;
+	padding-left:7px;
+	padding-right:7px;
+}
+.downloadbtn-shadow
+{
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.pay-billbody
+{
+	background-color: #eee;
+	padding-left:20px;
+	padding-right:20px;
+}
+.pay-billbody div
+{
+	margin-bottom:15px;
+}
+.verify-glass
+{
+	text-shadow:0 2px 0;
+	color: #4d7982;
+}
+.unverify
+{
+	text-shadow:0 2px 0;
+	color: #cf2927;
+}
+.verify
+{
+	text-shadow:0 2px 0;
+	color: #6aa64d;
+}
+.mediumfont-size
+{
+	font-size:20px;
+}
+.normalfont-size
+{
+	font-size:15px;
+}
+.paybtn-div
+{
+	margin-top:60px;
+}
+
+.paybtn-div li {
+	margin-bottom: 15px;
+}
+
+.paybtn-div li a,
+.paybtn-div li a:hover {
+	color: #fff;
+}
+
+.paybtn-div .btn {
+	width: 280px;
+}
+
+.payment-confirm {
+	top:30%;
+	left:40%;
+	width:25%;
+	overflow:hidden;	
+}
+.payment-confirm div {
+	width:100%;
+}
+
+.supertop-offer {
+	margin-top:15px;
+	margin-bottom:10px;
+}
+
+.nextbill-date {
+	margin-bottom:25px;
+}
+
+.invoice-tbltime {
+	padding-left:25px;
+}
+
+.invoice-tbldownload {
+	padding-right:25px;
+}
+
+.paybutton-shadow {
+	box-shadow: 3px 3px;
+}
+
+.paybutton-shadow a {
+	color:white;
+}
+
+.pay_it {
+	width:5em;
+	height:2em;	
+}
+
+h4.title {
+	color:white;
+}
+
+.offer-img-wrapper {
+	width: 95px !important;
+}
+
+.loader {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    border: 7px solid #f3f3f3; /* Light grey */
+    border-top: 7px solid #428bca; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.notification
+{
+	margin-top:0px;
+	margin-bottom:10px;
+}
+.notification-container
+{
+	position:relative;
+	width:100%;
+}
